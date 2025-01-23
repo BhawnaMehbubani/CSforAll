@@ -1,6 +1,5 @@
 '''
 Sum of even & odd: 
-
 Write a program to input an integer N and print the sum of all its even digits and sum of all its odd digits separately. (With a single space)
 Digits mean numbers, not the places! That is, if the given integer is "1 3 2 4 5", even digits are 2 & 4 and odd digits are 1, 3 & 5. 
 Constraints : 0 <= N <= 10^8
