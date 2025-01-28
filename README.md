@@ -1,1 +1,1 @@
-# CSforAll
+# CSforAllAssignments
