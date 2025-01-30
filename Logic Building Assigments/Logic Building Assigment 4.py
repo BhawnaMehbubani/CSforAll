@@ -49,3 +49,13 @@ AbCdEfF
 Output
 1
 """
+
+'''
+Time and Space Complexity
+Time Complexity:
+O(n), where n is the length of the string (up to 100). We convert each string to lowercase and perform a lexicographical comparison, which both take linear time.
+Space Complexity:
+O(n), since we store the lowercase versions of the strings.
+Summary:
+The code converts both strings to lowercase and compares them lexicographically. It outputs -1, 1, or 0 based on the comparison.
+'''
