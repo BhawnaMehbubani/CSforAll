@@ -1,18 +1,11 @@
 #https://codeforces.com/problemset/problem/4/A
 
 def can_divide_watermelon(w):
-    # The watermelon can be divided if:
-    # 1. It's an even number.
-    # 2. It's greater than 2 (since 2 can only be split into 1+1 which is not even).
-    if w > 2 and w % 2 == 0:
-        print("YES")
-    else:
-        print("NO")
+    print("YES" if w > 2 and w % 2 == 0 else "NO")
 
 # Read input
 w = int(input())
 can_divide_watermelon(w)
-
 
 """
 A. Watermelon
@@ -28,3 +21,11 @@ The first (and the only) input line contains integer number w (1 ≤ w ≤
 Output
 Print YES, if the boys can divide the watermelon into two parts, each of them weighing even number of kilos; and NO in the opposite case.
 """
+
+'''
+Simple Conditional Check:
+w > 2: Ensures the weight is more than 2 (since 2 can only be split into 1+1, which is not even).
+w % 2 == 0: Ensures the weight is even.
+One-Liner Print Statement: Reduces unnecessary if-else block.
+Time Complexity: 𝑂(1)(constant time check).
+'''
